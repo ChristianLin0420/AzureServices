@@ -4,8 +4,8 @@ import java.io.IOException;
 public class ModelController {
     public static void main(String[] args) throws IOException {
         
-        String endpoint = "https://form-recognizer-westus.cognitiveservices.azure.com/";
-        String sub_key = "ac9766c9be2545628287bfb92a96df21";
+        String endpoint = "";
+        String sub_key = "";
 
         if (args[0].equals("GD")) {
             System.out.println("Start analysising the file using general document model!!!");
